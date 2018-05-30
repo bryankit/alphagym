@@ -1,14 +1,19 @@
 
+*{
+	font-family: 'Oswald', sans-serif;
+}
+p {
+	font-family: 'Open Sans', sans-serif;
 
+}
 
 #logo {
     height: 70px;
 }
 
-
-
 #hero {
-    background-color: grey;
+    background:url(../images/hero.jpg) center no-repeat;
+    background-size: cover;
     text-transform: uppercase;
 }
 
@@ -20,9 +25,16 @@
     background-color: grey;
 }
 
+#trainer {
+	background: url(../images/trainerbg.jpg)center no-repeat;
+	background-size: cover;
+}
 
-
-#imgc {
-    height: 400px;
-    width: 400px;   
+#promo {
+	background: url(../images/promobg.jpg)center no-repeat;
+	background-size: cover;
+}
+#signup {
+	background: url(../images/signup.jpg)center no-repeat;
+	background-size: cover;
 }
